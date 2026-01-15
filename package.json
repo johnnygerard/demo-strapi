@@ -48,9 +48,9 @@
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
   "strapi": {
-    "installId": "placeholder",
+    "installId": "9bc19b5b789847a41cb4403d8c706364a2a6472552c327595cb0e66bd9f587d4",
     "telemetryDisabled": true,
-    "uuid": "placeholder"
+    "uuid": "14fbdbbe-e2f9-4466-949f-48646a4a6bac"
   },
   "version": "0.0.0"
 }
