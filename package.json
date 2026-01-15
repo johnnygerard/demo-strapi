@@ -33,7 +33,7 @@
     "node": "24",
     "npm": "11"
   },
-  "name": "starter-strapi-5",
+  "name": "demo-strapi",
   "private": true,
   "scripts": {
     "build": "strapi build",
