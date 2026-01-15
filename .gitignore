@@ -1,0 +1,18 @@
+# https://git-scm.com/docs/gitignore
+
+# Node.js dependencies
+/node_modules/
+
+# SQLite database
+/.tmp/
+
+# Strapi
+/.env
+/.strapi-cloud.json
+/.strapi-updater.json
+/.strapi/
+/dist/
+/types/generated/
+
+# Initial setup (see README.md for details)
+/strapi-skeleton/

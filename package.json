@@ -1,0 +1,57 @@
+{
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.33.3",
+    "@strapi/plugin-users-permissions": "5.33.3",
+    "@strapi/strapi": "5.33.3",
+    "better-sqlite3": "12.4.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "description": "A Strapi application",
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "prettier": "3.7.4",
+    "typescript": "^5"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "onFail": "error",
+      "version": "11"
+    },
+    "runtime": {
+      "name": "node",
+      "onFail": "error",
+      "version": "24"
+    }
+  },
+  "engines": {
+    "node": "24",
+    "npm": "11"
+  },
+  "name": "starter-strapi-5",
+  "private": true,
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "strapi": {
+    "installId": "placeholder",
+    "telemetryDisabled": true,
+    "uuid": "placeholder"
+  },
+  "version": "0.0.0"
+}
